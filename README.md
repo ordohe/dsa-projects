@@ -4,27 +4,23 @@ This repository contains selected Java-based projects completed in the course *D
 
 ## Projects
 
-### 🂡 `blackjack_simulation` – Monte Carlo Blackjack
-Simulates hundreds of rounds of Blackjack to explore the statistical properties of the game. Focused on building Java classes (`Card`, `Deck`, `Hand`, `Blackjack`) and applying object-oriented design.
+### 🂡 [Blackjack Simulation](https://github.com/ordohe/dsa-projects/tree/main/blackjack_simulation)
+Monte Carlo simulation of Blackjack using custom classes (`Card`, `Deck`, `Hand`, etc.) and ArrayLists. Demonstrates basic OOP design.
 
-### 🌱 `conways_game_of_life` – Cellular Automata Simulation
-Implements Conway’s Game of Life using Java Swing to visualize a dynamic grid of cells that follow simple rules to simulate life, death, and rebirth. Involves 2D arrays and GUI programming.
+### 🌱 [Conway’s Game of Life](https://github.com/ordohe/dsa-projects/tree/main/conways_game_of_life)
+A cellular automata simulation rendered using Java Swing. Emphasizes 2D arrays and graphical interfaces.
 
-### 🧍 `agent-based-simulation` – Grouping Behaviors Simulation
-Models social behaviors using agents in continuous 2D space. Each agent interacts with others based on distance and type. Emphasizes linked list structures and simulation logic.
+### 🧍 [Agent-Based Simulation](https://github.com/ordohe/dsa-projects/tree/main/agent-based-simulation)
+Simulates social behavior in a continuous 2D landscape using linked lists and agent update logic.
 
-### 🧠 `sudoku_solver` – Stack-Based Puzzle Solver
-Uses a depth-first search algorithm powered by a custom stack implementation to solve Sudoku puzzles. Explores backtracking and constraint satisfaction strategies.
+### 🧠 [Sudoku Solver](https://github.com/ordohe/dsa-projects/tree/main/sudoku_solver)
+Implements a depth-first search algorithm using a custom stack to solve Sudoku puzzles.
 
-### 📊 `word_frequency_bst` – Word Frequency Analysis
-Compares the efficiency of binary search trees and hash maps for word counting tasks. Involves parsing text files and analyzing structure performance.
+### 📊 [Word Frequency (BST)](https://github.com/ordohe/dsa-projects/tree/main/word_frequency_bst)
+Analyzes word frequencies in a text using both binary search trees and hash maps to compare performance.
 
-### 🕵️ `pursuit-evasion` – Graph-Based Strategy Game
-Implements a turn-based pursuit-evasion game on a graph. Uses custom graph structures to simulate movement, pathfinding, and player strategy. Reinforces priority queues and abstract data types.
+### 🕵️ [Pursuit-Evasion Game](https://github.com/ordohe/dsa-projects/tree/main/pursuit-evasion)
+Graph-based turn-by-turn simulation between a pursuer and an evader. Involves custom graph, queue, and heap implementations.
 
 ---
 
-## Notes
-- All projects are written in Java.
-- Some folders may include compiled `.class` files for demonstration purposes.
-- GUI-based projects utilize `Java Swing` for visualization.
